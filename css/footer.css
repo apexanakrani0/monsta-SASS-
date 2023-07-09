@@ -1,0 +1,68 @@
+footer {
+  border-top: 1px solid #2d2d2d;
+  padding-top: 60px;
+}
+footer h4 {
+  font-size: 20px;
+  color: var(--white-color);
+  font-family: var(--font-family);
+  padding-bottom: 25px;
+}
+footer span {
+  font-size: 14px;
+  color: #a0a0a0;
+  margin-bottom: 10px;
+  display: block;
+}
+footer .social-icon {
+  display: flex;
+  list-style: none;
+}
+footer .social-icon li {
+  margin-right: 10px;
+}
+footer .social-icon li a {
+  width: 37px;
+  height: 37px;
+  background-color: #2f2f2f;
+  border-radius: 50%;
+  color: #a0a0a0;
+  text-align: center;
+  line-height: 37px;
+  display: block;
+}
+footer .link {
+  list-style: none;
+}
+footer .link li {
+  margin-bottom: 5px;
+}
+footer .link li a {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+footer .link li a:hover {
+  color: var(--primary-color);
+}
+footer .rate {
+  border-bottom: 1px solid #2d2d2d;
+  margin-bottom: 10px;
+}
+footer .rate .w-3 {
+  padding: 0px;
+  width: 78px;
+  height: 78px;
+}
+footer .rate .footer-content a {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+footer .rate .footer-content h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+footer .rate .footer-content p {
+  color: var(--primary-color);
+}
+
+/*# sourceMappingURL=footer.css.map */

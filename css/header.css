@@ -1,0 +1,198 @@
+.top-bar {
+  width: 100%;
+  padding: 5px 50px;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.1);
+}
+.top-bar .social ul {
+  display: flex;
+  list-style: none;
+}
+.top-bar .social ul li a {
+  color: var(--secondary-color);
+  padding: 5px 10px;
+  display: block;
+  font-family: var(--font-stack);
+  font-size: 13px;
+  background-color: rgba(160, 160, 160, 0.1);
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.top-bar .social ul li:not(:first-child) {
+  margin-left: 5px;
+}
+.top-bar .social ul li a:hover {
+  color: var(--white-color);
+}
+
+.info ul {
+  display: flex;
+  list-style: none;
+}
+.info ul li a {
+  color: var(--white-color);
+  padding: 12px 15px;
+  display: block;
+  font-family: var(--font-stack);
+  font-size: 13px;
+  position: relative;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+.info ul li a i {
+  margin-left: 8px;
+}
+.info ul li a span {
+  display: block;
+  position: relative;
+  padding-right: 20px;
+}
+.info ul li a span::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translatey(-50%);
+  right: 0;
+  width: 2px;
+  height: 15px;
+  background-color: rgba(160, 160, 160, 0.1);
+}
+.info ul li a:hover {
+  color: var(--primary-color);
+}
+
+.login-detail {
+  width: 100%;
+  padding: 35px 30px;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.1);
+}
+.login-detail .call i {
+  font-size: 40px;
+  display: inline-block;
+  color: var(--primary-color);
+}
+.login-detail .call p {
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 14px;
+  padding-left: 10px;
+}
+.login-detail .logo {
+  text-align: center;
+}
+.login-detail .logo img {
+  width: 150px;
+}
+.login-detail .login {
+  float: right;
+}
+.login-detail .login ul {
+  display: flex;
+  list-style: none;
+}
+.login-detail .login ul li a {
+  color: var(--white-color);
+  font-size: 17px;
+  padding: 13px 15px;
+  border: 1px solid rgba(160, 160, 160, 0.1);
+  border-radius: 3px;
+}
+.login-detail .login ul li a span {
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+}
+.login-detail .login ul li a span i {
+  padding-right: 10px;
+}
+.login-detail .login ul li a span.price {
+  font-size: 14px;
+  padding-left: 7px;
+}
+.login-detail .login ul li a span.price i {
+  padding-right: 0;
+}
+.login-detail .login ul li a span.price::after {
+  display: none;
+}
+.login-detail .login ul li a span::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 20px;
+  background-color: rgba(160, 160, 160, 0.1);
+}
+.login-detail .login ul li:not(:first-child) {
+  margin-left: 15px;
+}
+.login-detail .login ul li a:hover {
+  color: var(--primary-color);
+}
+
+.main-nav {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid rgba(160, 160, 160, 0.1);
+}
+.main-nav nav ul {
+  display: flex;
+  list-style: none;
+}
+.main-nav nav ul li a {
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  transition: all 0.2s ease;
+}
+.main-nav nav ul li a i {
+  font-size: 16px;
+}
+.main-nav nav ul li:not(:last-child) {
+  padding-right: 30px;
+}
+.main-nav nav ul li .home {
+  color: var(--primary-color);
+}
+.main-nav nav ul li a:hover {
+  color: var(--primary-color);
+}
+
+.drop-down {
+  position: relative;
+}
+
+ul.drop-down-menu {
+  position: absolute;
+  width: 200px;
+  max-width: 250px;
+  padding: 20px;
+  opacity: 0;
+  background-color: var(--bg-color);
+  border: 1px solid rgba(160, 160, 160, 0.1);
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.mega {
+  position: relative;
+  width: 600px;
+}
+
+.mega-menu {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--bg-color);
+  border: 1px solid rgba(160, 160, 160, 0.1);
+  display: flex;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.mega-dropdown .mega-items {
+  width: 33.3333%;
+}/*# sourceMappingURL=header.css.map */

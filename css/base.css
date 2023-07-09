@@ -1,0 +1,53 @@
+:root {
+  --bg-color: #212121;
+  --primary-color: #a8741a;
+  --primary-color-rgb: 168, 116, 26;
+  --secondary-color: #a0a0a0;
+  --secondary-color-rgb: 160, 160, 160;
+  --white-color: #fff;
+  --white-color-rgb: 255, 255, 255;
+  --black-color: #000;
+  --black-color-rgb: 0, 0, 0;
+  --font-stack: Rubik;
+  --font-family: Prata;
+  --fs: 16px;
+  --fw: 400;
+  --flh: 1.5;
+  --gutter-padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-size: var(--fs);
+  line-height: var(--flh);
+  font-weight: var(--fw);
+  transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=base.css.map */
